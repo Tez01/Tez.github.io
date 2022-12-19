@@ -1,6 +1,10 @@
 * {
     box-sizing: border-box;
   }
+
+  .head > h1{
+    color: white !important;
+  }
   
   /* Set a background color */
  
