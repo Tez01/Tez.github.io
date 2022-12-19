@@ -3630,9 +3630,23 @@ input, select, textarea {
 		max-width: 72rem;
 		z-index: 2;
 	}
-
+    #nav ul.links .first-link li.active {
+       
+        margin-left: 0px !important;
+        margin-bottom: 1px;
+        border-color: black;
+        background-color: black;
+    }
+    #nav ul.links li.active {
+       
+        margin-left: 2px;
+        margin-bottom: 1px;
+        border-color: black;
+        background-color: black;
+    }
 		#nav ul.divided li {
 			border-top-color: #ffffff;
+            
 		}
 
 		#nav ul.icons li a.icon:hover:before {
